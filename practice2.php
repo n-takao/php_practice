@@ -29,10 +29,20 @@ echo "\n";
 
 $hurits=array("banana", "kiwi", "orenge", "apple", "grape");
 
-foreach($hurits as $hurits){
-    echo "果物は". $hurits;
+foreach($hurits as $hurit){
+    echo "果物は". $hurit;
     echo "\n";
     
 }
 
 
+$start=0;
+$end=100;
+
+for($i=$start; $i<=$end; $i++){
+    
+    if($i%5==0){
+        echo $i;
+        echo "\n";
+    }
+}
