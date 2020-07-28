@@ -39,3 +39,133 @@ $tech_boost2018_calendder = [
  echo "\n";
     
     
+ 
+ $integer=10;
+ $new_integer=$integer+10;
+ echo $new_integer;
+ echo "\n";
+ 
+ $array=[2017,2018,2019,2020];
+ echo $array[3];
+ 
+ $array2=["spring","summer","autumn","winter"];
+ echo $array2[2];
+ 
+ echo "\n";
+ $animals=[
+  "cat"=>"猫",
+  "dog"=>"犬",
+  "bird"=>"鳥"];
+  echo $animals["cat"];
+  echo "\n";
+  echo $animals["dog"];
+  echo "\n";
+  $resule=true;
+  
+  if($resule==true){
+   echo "成功しました";
+   
+  }else{
+   echo "知っパしました";
+  }
+
+$value=6;
+echo $value+2;
+echo "\n";
+$value=6;
+echo $value-4;
+
+$animals=[
+ "cat"=>"猫",
+ "bird"=>"鳥",
+ "dog"=>"犬",
+ "fuish"=>"魚"
+ ];
+ echo $animals["cat"];
+ echo $animals["fuish"];
+ echo "\n";
+ 
+ $result=false;
+ if($result==false){
+  echo "成功です";
+ }else{
+  echo "失敗です。";
+ }
+ 
+ $value=6;
+ echo $value+2;
+ echo "\n";
+ $value=6;
+ echo $value*2;
+ echo "\n";
+ $value=6;
+ echo $value-5;
+ echo "\n";
+ $value="takao";
+ echo $value . "chiaki";
+ echo "\n";
+ 
+ $value=10;
+ $result=$value==20;
+ var_dump($result);
+ echo "\n";
+ $value=10;
+ $result=$value<20;
+ var_dump($result);
+ echo "\n";
+ 
+ $a=20;
+ $b="20";
+ $result=$a==$b;
+ var_dump($result);
+ 
+ 
+ $a=20;
+ $b="20";
+ $result=$a===$b;
+ var_dump($result);
+ 
+ $value="1234";
+ echo $value . "5678";
+ $value=20;
+ $result=$value==10;
+ var_dump($result);
+ 
+ $value="20";
+ $result=$value<40;
+ var_dump($result);
+ 
+ 
+ $a=20;
+ $b="20";
+ $result=$a == $b;
+ var_dump($result);
+ $value=10;
+ ++$value;
+ echo $value;
+ 
+ $value=10;
+ --$value;
+ echo $value;
+ 
+ $value=20;
+ $value +=5;
+ echo $value;
+ 
+ echo "\n";
+ 
+ $value='myu';
+ $value .= ' ren';
+ echo $value;
+ echo "\n";
+ $fruits = array("banana",  "apple",  "orenge");
+ foreach($fruits as $fruits){
+ echo "要素は". $fruits;
+ 
+  
+ echo "\n";
+  
+ }
+ 
+ 
+ 

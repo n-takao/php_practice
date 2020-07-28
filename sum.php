@@ -53,6 +53,31 @@ echo "\n";
  $text="<h1>中村　高雄</h1>
  
  <p>会社員</p>";
- 
+//  ここから　問、5
  echo strip_tags($text);
  echo "\n";
+ 
+ $pet=array("レン","みゅう");
+ 
+ array_push($pet,"ぶん子","まるちゃん");
+ 
+ print_r($pet);
+ 
+ echo "\n";
+ 
+ $array=array(1,2,"三",);
+ 
+ $array2=array("四","五",7,8);
+ 
+ $array3=array(9,10,11,12);
+ 
+ $result=array_merge($array,$array2,$array3);
+ print_r($result);
+ 
+ echo"\n";
+ 
+//  time,mktimeさっぱり分かりません。
+
+//  dateこれもどのように理解するかが糸口掴めません。
+
+// いずれも時刻を便利に表示する関数のようですが、難しいです。
