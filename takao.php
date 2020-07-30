@@ -239,5 +239,60 @@ $animals = [
        echo "\n";
        
    }
+//   ここから下は練習
+   $array=["takao","chiaki","ren"];
+   
+   echo $array["0"];
+   
+   echo "\n";
+   
+   $kazoku=[
+       
+       "cat1"=>"れん",
+       "cat2"=>"みゅうちゃん",
+       "cat3"=>"ぶんこ",
+       "cat4"=>"まるこ"];
+       
+       echo $kazoku["cat1"];
+       
+       echo $kazoku["cat3"];
+       echo "\n";
+       
+       $resulut=false;
+       
+    //   $reslut＝trueが正しければ成功へ
+    // 間違いなら不成功
+    
+    if($reslut==true){
+        
+        echo "成功です";
+    }
+        
+        else{ 
+            echo "不成功です";
+    }
+       
+       
+   $result=takao;
+   
+//   resultにtakaoであれば、１へそうでなければ、２へ。
+
+if($result==chiaki){
+    
+    echo "1で振り分け";
+}
+else{
+    echo "2へ振り分け";
+    
+
+}
+
+$value="千明";
+
+echo $value . "タカオ";
+
+   
+   
+   
    
    

@@ -76,8 +76,42 @@ echo "\n";
  
  echo"\n";
  
-//  time,mktimeさっぱり分かりません。
+// 下記追加しました。
 
-//  dateこれもどのように理解するかが糸口掴めません。
 
-// いずれも時刻を便利に表示する関数のようですが、難しいです。
+// timeとdateの使用例です。 
+// 現在の時刻合わせ
+date_default_timezone_set('Asia/Tokyo');
+print date("Y/m/d G:i:s");
+
+echo"\n";
+// 現在のタイムスタンプ
+echo time();
+
+echo "\n";
+
+// mktimeで明日のunixタイムスタンプ
+$time = mktime(7, 31, 2020);
+  
+  
+ echo $time;
+ echo "\n";
+
+echo "\n";
+
+// date関数を使用して現在日付
+
+echo date('Y/m/d');
+ 
+echo '<br>';
+// 時刻
+echo date('Y-m-d  h:i:s');
+
+echo '<br>';
+
+
+
+
+
+
+
